@@ -32,3 +32,7 @@
 // Create a form and button element with each timeblock
 // Save the user entered text to the field when the button is pressed
 // Change color of the timeblocks to represent old, current, and future plans
+
+$(function () {
+$(`#timeblock`).moment.locale();
+});
