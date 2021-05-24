@@ -33,6 +33,6 @@
 // Save the user entered text to the field when the button is pressed
 // Change color of the timeblocks to represent old, current, and future plans
 
-$(function () {
-$(`#timeblock`).moment.locale();
-});
+// Creates a timeblock for the current day
+const today = moment();
+$(`#timeblock`).text(`Today is ` + today.format(`MMM Do, YYYY`));
