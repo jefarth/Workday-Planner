@@ -13,7 +13,6 @@
 // THEN the saved events persist
 
 
-// Create current day display at top of calendar
 // Scroll down to see timeblocks for standard business hours
 // Each timeblock is color coded to indicate if it is in the past, present, or future
 // Can click into a timeblock
@@ -22,10 +21,6 @@
 // Save user text for the timeblock in local storage
 // User events saved and present when page refreshed
 
-
-
-// Create timeblock at top of page
-// Create div for timeblock
 
 // Create grid element with 3 columns and 8 rows
 // Create list elements to represent 9-5 workday for each hour
@@ -36,3 +31,35 @@
 // Creates a timeblock for the current day
 const today = moment();
 $(`#timeblock`).text(`Today is ` + today.format(`MMM Do, YYYY`));
+
+// Create function on buttons to sumbit form data
+const btn1 = $(`9am`);
+btn1.onClick
+function submitData() {
+   
+}
+
+// Create a function to change the textbox color
+// Loop through all the hours to check if the timeblock
+// is before, equal, or after the current time
+
+// ----------!!!!!!!!!!!!----------- Broken ---------!!!!!!!!!!-----------
+
+// Creates a function to style the form page based on current hour
+// const currentTime = moment().hour();
+
+// function checkTime() {
+//     let hours = $(`hours`);
+//     // Loop through all the hour timeblocks
+//     var i;
+//     for (i = 0; i < hours.length; i++) {
+//         if (currentTime === hours) {
+//             $(`colorCode`).add(`present`);
+//         } else if (currentTime < hours) {
+//             $(`colorCode`).add(`past`);
+//         } else (currentTime > hours) {
+//             $(`colorCode`).add(`future`);
+//         }    
+// }};
+
+// checkTime();
