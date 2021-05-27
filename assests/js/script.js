@@ -30,7 +30,7 @@
 
 // Creates a timeblock for the current day
 const today = moment();
-$(`#timeblock`).text(`Today is ` + today.format(`MMM Do, YYYY`));
+$(`#today`).text(`Today is ` + today.format(`MMM Do, YYYY`));
 
 // Create function on buttons to sumbit form data
 const btn1 = $(`9am`);

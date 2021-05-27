@@ -35,10 +35,10 @@
     />
 
     <!-- MDB -->
-    <link
+    <!-- <link
     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
     rel="stylesheet"
-    />
+    /> -->
 
     <link rel="stylesheet" href="./assests/css/style.css" />
     <title>Work Day Scheduler</title>
@@ -52,166 +52,128 @@
       <p id="currentDay" class="lead"></p>
 
    <!-- Timeblock -->
-      <div class="container" id="timeblock">
+      <div class="container" id="today">
       </div>
     </header>
 
-    <!-- Grid to lay out planner -->
-
-    <!-- Creates time slot -->
+    <!-- Creates Page Container -->
   <main id="planner" class="container">
+
+    <!-- Grid -->
+
+    <section class="container">
+
+      <div class="row timeblock">
+        <h4 class="col hour">
+          9AM
+        </h4>
+        <textarea class="col-6 description">
+          2 of 3 (wider)
+        </textarea>
+        <button class="col saveBtn">
+          3 of 3
+        </button>
+      </div>
+
+      <div class="row timeblock">
+        <h4 class="col hour">
+          10AM
+        </h4>
+        <textarea class="col-6 description">
+          2 of 3 (wider)
+        </textarea>
+        <button class="col saveBtn">
+          3 of 3
+        </button>
+      </div>
+
+      <div class="row timeblock">
+        <h4 class="col hour">
+          11AM
+        </h4>
+        <textarea class="col-6 description">
+          2 of 3 (wider)
+        </textarea>
+        <button class="col saveBtn">
+          3 of 3
+        </button>
+      </div>
+      
+      <div class="row timeblock">
+        <h4 class="col hour">
+          12PM
+        </h4>
+        <textarea class="col-6 description">
+          2 of 3 (wider)
+        </textarea>
+        <button class="col saveBtn">
+          3 of 3
+        </button>
+      </div>
+
+      <div class="row timeblock">
+        <h4 class="col hour">
+          1PM
+        </h4>
+        <textarea class="col-6 description">
+          2 of 3 (wider)
+        </textarea>
+        <button class="col saveBtn">
+          3 of 3
+        </button>
+      </div>
+      
+      <div class="row timeblock">
+        <h4 class="col hour">
+          2PM
+        </h4>
+        <textarea class="col-6 description">
+          2 of 3 (wider)
+        </textarea>
+        <button class="col saveBtn">
+          3 of 3
+        </button>
+      </div>
+
+      <div class="row timeblock">
+        <h4 class="col hour">
+          3PM
+        </h4>
+        <textarea class="col-6 description">
+          2 of 3 (wider)
+        </textarea>
+        <button class="col saveBtn">
+          3 of 3
+        </button>
+      </div>
+
+      <div class="row timeblock">
+        <h4 class="col hour">
+          4PM
+        </h4>
+        <textarea class="col-6 description">
+          2 of 3 (wider)
+        </textarea>
+        <button class="col saveBtn">
+          3 of 3
+        </button>
+      </div>
+
+      <div class="row timeblock">
+        <h4 class="col hour">
+          5PM
+        </h4>
+        <textarea class="col-6 description">
+          2 of 3 (wider)
+        </textarea>
+        <button class="col saveBtn">
+          3 of 3
+        </button>
+      </div>
+
+    </section>
+
     
-    <section class="row time-block">
-      <div class="col-md-3 hour">
-        <h2>9 a.m.</h2>
-      </div>
-      <!-- Creates user form -->
-      <div class="col-md-6">
-        <div class="form-outline colorCode">
-          <input class="form-control form-control-sm" type="text" placeholder="9 a.m."/>
-        </div>
-      </div>
-      <!-- Creates a button to sumbit form data -->
-      <div class="col-md-3">
-        <input class="saveBtn 9am" type="button" value="Submit"/>
-      </div>
-    </section>
-    
-   <!-- Creates time slot -->
-    <section class="row time-block">
-      <div class="col-md-3 hour">
-        <h2>10 a.m.</h2>
-      </div>
-      <!-- Creates user form -->
-      <div class="col-md-6">
-        <div class="form-outline colorCode">
-          <input class="form-control form-control-sm description" type="text" placeholder="10 a.m."/>
-        </div>
-      </div>
-       <!-- Creates a button to sumbit form data -->
-      <div class="col-md-3">
-        <input class="saveBtn 10am" type="button" value="Submit"/>
-      </div>
-    </section>
-
-   <!-- Creates time slot -->
-    <section class="row time-block">
-      <div class="col-md-3 hour">
-        <h2>11 a.m.</h2>
-      </div>
-      <!-- Creates user form -->
-      <div class="col-md-6">
-        <div class="form-outline colorCode">
-          <input class="form-control form-control-sm" type="text" placeholder="11 a.m.">
-        </div>
-      </div>
-       <!-- Creates a button to sumbit form data -->
-      <div class="col-md-3">
-        <input class="saveBtn 11am" type="button" value="Submit" />
-      </div>
-    </section>
-
-   <!-- Creates time slot -->
-    <section class="row time-block">
-      <div class="col-md-3 hour">
-        <h2>12 p.m.</h2>
-      </div>
-      <!-- Creates user form -->
-      <div class="col-md-6">
-        <div class="form-outline colorCode">
-          <input class="form-control form-control-sm" type="text" placeholder="12 p.m.">
-        </div>
-      </div>
-      <!-- Creates a button to sumbit form data -->
-      <div class="col-md-3">
-        <input class="saveBtn 12pm" type="button" value="Submit" />
-      </div>
-    </section>
-
-  <!-- Creates time slot -->
-    <section class="row time-block">
-      <div class="col-md-3 hour">
-        <h2>1 p.m.</h2>
-      </div>
-      <!-- Creates user form -->
-      <div class="col-md-6">
-        <div class="form-outline colorCode">
-          <input class="form-control form-control-sm" type="text" placeholder="1 p.m.">
-        </div>
-      </div>
-      <!-- Creates a button to sumbit form data -->
-      <div class="col-md-3">
-        <input class="saveBtn 1pm" type="button" value="Submit" />
-      </div>
-    </section> 
-
-  <!-- Creates time slot -->   
-    <section class="row time-block">
-      <div class="col-md-3 hour">
-        <h2>2 p.m.</h2>
-      </div>
-      <!-- Creates user form -->
-      <div class="col-md-6">
-        <div class="form-outline colorCode">
-          <input class="form-control form-control-sm" type="text" placeholder="2 p.m.">
-        </div>
-      </div>
-       <!-- Creates a button to sumbit form data -->
-      <div class="col-md-3">
-        <input class="saveBtn 2pm" type="button" value="Submit" />
-      </div>
-    </section>
-
-  <!-- Creates time slot -->
-    <section class="row time-block">
-      <div class="col-md-3 hour">
-        <h2>3 p.m.</h2>
-      </div>
-      <!-- Creates user form -->
-      <div class="col-md-6">
-        <div class="form-outline colorCode">
-          <input class="form-control form-control-sm" type="text" placeholder="3 p.m.">
-        </div>
-      </div>
-      <!-- Creates a button to sumbit form data -->
-      <div class="col-md-3">
-        <input class="saveBtn 3pm" type="button" value="Submit" />
-      </div>
-    </section>
-
-  <!-- Creates time slot -->
-    <section class="row time-block">
-      <div class="col-md-3 hour">
-        <h2>4 p.m.</h2>
-      </div>
-       <!-- Creates user form -->
-      <div class="col-md-6">
-        <div class="form-outline colorCode">
-          <input class="form-control form-control-sm" type="text" placeholder="4 p.m.">
-        </div>
-      </div>
-      <!-- Creates a button to sumbit form data -->
-      <div class="col-md-3">
-        <input class="saveBtn 4pm" type="button" value="Submit" />
-      </div>
-    </section>
-    
-  <!-- Creates time slot -->
-    <section class="row time-block">
-      <div class="col-md-3 hour">
-        <h2>5 p.m.</h2>
-      </div>
-      <!-- Creates user form -->
-      <div class="col-md-6">
-        <div class="form-outline colorCode">
-          <input class="form-control form-control-sm" type="text" placeholder="5 p.m.">
-        </div>
-      </div>
-       <!-- Creates a button to sumbit form data -->
-      <div class="col-md-3">
-        <input class="saveBtn 5pm" onClick="submitData()" type="button" value="Submit" />
-      </div>
-    </section>
   </main>
 
     <!-- MDB -->
@@ -220,17 +182,20 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
     ></script>
     
+    <!-- jQuery -->
     <script 
     src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <script 
-    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-
+    
     <script 
     src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous"></script>
 
+    <!-- Moment -->
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <!-- My JS -->
     <script
     src="./assests/js/script.js"></script>
   </body>
